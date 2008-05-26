@@ -1,0 +1,41 @@
+.boxc {
+padding:0px;
+position:relative;
+}
+.boxc b.cn {
+background:transparent url(roundwhite.png) no-repeat scroll 0%;
+height:10px;
+position:absolute;
+width:10px;
+}
+.boxc b.tl {
+background-position:left top;
+left:-1px;
+top:-1px;
+}
+.boxc b.tr {
+background-position:right top;
+right:-1px;
+top:-1px;
+}
+.boxc b.bl {
+background-position:left bottom;
+bottom:-1px;
+left:-1px;
+}
+.boxc b.br {
+background-position:right bottom;
+bottom:-1px;
+right:-1px;
+}
+* html .boxc b.bl {
+bottom:-2px;
+}
+* html .boxc b.br {
+bottom:-2px;
+}
+* html .boxc b.cn {
+background-image:url(roundwhite.gif);
+font-size:1px;
+line-height:1px;
+}

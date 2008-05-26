@@ -1,0 +1,43 @@
+Round corners the Technorati way. Adds four empty HTML elements inside any div with class="round" 
+
+The library does the magic. Include this in your html head section:
+
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="roundcorners.js"></script>
+<link type="text/css" rel="stylesheet" href="roundcorners.css"></link>
+
+
+
+
+Created by Jesper Rønn-Jensen, Capgemini
+2008-05-26
+
+
+
+
+
+
+Example
+
+Put this in your <head> section:
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="roundcorners.js"></script>
+<link type="text/css" rel="stylesheet" href="roundcorners.css"></link>
+	
+
+Add class="round" to a div in your HTML:
+
+
+<div class="round">
+  <h2>..</h2>
+  <ul>
+    <li>..</li>
+    ..
+  </ul>
+</div>
+
+
+
+See also file example.html
